@@ -1,0 +1,38 @@
+﻿@model Livro.Models.LoginModel
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+            <h1 class="text-center mb-4">Login</h1>
+            <form asp-controller="Login" asp-action="Index" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="Email" class="control-label"></label>
+                    <input asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Password" class="control-label"></label>
+                    <input asp-for="Password" class="form-control" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input" asp-for="RememberMe" /> @Html.DisplayNameFor(model => model.RememberMe)
+                    </label>
+                </div>
+                <div class="form-group text-center">
+                    <button type="submit" class="btn btn-primary">Login</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
