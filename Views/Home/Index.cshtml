@@ -4,10 +4,13 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Página Inicial - Livro+</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" id="theme-stylesheet" href="~/css/@(ViewData["Theme"] ?? "light-theme").css" />
     <style>
         body {
-            background-image: url('~/imagens/seu-background.jpg');
-            background-size: cover;
+            --background-image: url('~/imagens/seu-background.jpg');
+            --background-size: cover;
         }
 
         .top-right-links {
@@ -26,13 +29,58 @@
         .top-right-links a:hover {
             text-decoration: underline;
         }
+
+        .theme-toggle {
+            text-decoration: none;
+            cursor: pointer;
+        }
     </style>
 </head>
-<body>
+<body class="@(ViewData["Theme"] == "dark-theme" ? "dark-mode" : "")">
     <div class="top-right-links">
-        <a href="/Login/Login">Login</a>
-        <a href="/Registrar/Registrar">Registrar</a>
+        <a href="/Home/Login">Login</a>
+        <a href="/Home/Registrar">Registrar</a>
+        <a class="theme-toggle">@(ViewData["Theme"] == "dark-theme" ? "Modo Claro" : "Modo Escuro")</a>
     </div>
 
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>
+        const themeToggle = document.querySelector('.theme-toggle');
+        const themeStylesheet = document.getElementById('theme-stylesheet');
+
+        themeToggle.addEventListener('click', () => {
+            const isDarkTheme = themeStylesheet.href.includes('dark-theme');
+            themeStylesheet.href = isDarkTheme ? '~/css/light-theme.css' : '~/css/dark-theme.css';
+            updateThemeData(isDarkTheme ? 'light-theme' : 'dark-theme');
+        });
+
+        function updateThemeData(theme) {
+            $.ajax({
+                type: 'POST',
+                url: '@Url.Action("SetTheme", "Home")',
+                data: { theme: theme },
+                success: function() {
+                    console.log('Theme updated successfully');
+                    updateThemeToggleText();
+                },
+                error: function() {
+                    console.error('Error updating theme');
+                }
+            });
+        }
+
+        function updateThemeToggleText() {
+            const themeToggle = document.querySelector('.theme-toggle');
+            themeToggle.textContent = themeStylesheet.href.includes('dark-theme') ? 'Modo Claro' : 'Modo Escuro';
+        }
+
+        // Inicialize o tema e o texto do toggle
+        const initialTheme = '@(ViewData["Theme"] ?? "light-theme")';
+        themeStylesheet.href = `~/css/${initialTheme}.css`;
+        document.body.classList.toggle('dark-mode', initialTheme === 'dark-theme');
+        updateThemeToggleText();
+    </script>
 </body>
 </html>

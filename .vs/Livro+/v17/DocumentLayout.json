@@ -1,32 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Projetos\\Livro\u002B\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{DCBAD113-8DC5-40F6-809F-820909D36E35}|Livro\u002B.csproj|d:\\projetos\\livro\u002B\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DCBAD113-8DC5-40F6-809F-820909D36E35}|Livro\u002B.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DCBAD113-8DC5-40F6-809F-820909D36E35}|Livro\u002B.csproj|d:\\projetos\\livro\u002B\\views\\home\\registrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DCBAD113-8DC5-40F6-809F-820909D36E35}|Livro\u002B.csproj|solutionrelative:views\\home\\registrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DCBAD113-8DC5-40F6-809F-820909D36E35}|Livro\u002B.csproj|d:\\projetos\\livro\u002B\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCBAD113-8DC5-40F6-809F-820909D36E35}|Livro\u002B.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DCBAD113-8DC5-40F6-809F-820909D36E35}|Livro\u002B.csproj|d:\\projetos\\livro\u002B\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCBAD113-8DC5-40F6-809F-820909D36E35}|Livro\u002B.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DCBAD113-8DC5-40F6-809F-820909D36E35}|Livro\u002B.csproj|d:\\projetos\\livro\u002B\\models\\registrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCBAD113-8DC5-40F6-809F-820909D36E35}|Livro\u002B.csproj|solutionrelative:models\\registrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DCBAD113-8DC5-40F6-809F-820909D36E35}|Livro\u002B.csproj|d:\\projetos\\livro\u002B\\controllers\\registrarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCBAD113-8DC5-40F6-809F-820909D36E35}|Livro\u002B.csproj|solutionrelative:controllers\\registrarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -34,85 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Projetos\\Livro\u002B\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Projetos\\Livro\u002B\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAwwB4AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T07:24:33.089Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Projetos\\Livro\u002B\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Projetos\\Livro\u002B\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAB8AAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-17T07:06:37.755Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Projetos\\Livro\u002B\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Projetos\\Livro\u002B\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T07:16:50.153Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Registrar.cs",
-              "DocumentMoniker": "D:\\Projetos\\Livro\u002B\\Models\\Registrar.cs",
-              "RelativeDocumentMoniker": "Models\\Registrar.cs",
-              "ToolTip": "D:\\Projetos\\Livro\u002B\\Models\\Registrar.cs",
-              "RelativeToolTip": "Models\\Registrar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T07:05:14.473Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Registrar.cshtml",
-              "DocumentMoniker": "D:\\Projetos\\Livro\u002B\\Views\\Home\\Registrar.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Registrar.cshtml",
-              "ToolTip": "D:\\Projetos\\Livro\u002B\\Views\\Home\\Registrar.cshtml",
-              "RelativeToolTip": "Views\\Home\\Registrar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-17T07:00:11.621Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RegistrarController.cs",
-              "DocumentMoniker": "D:\\Projetos\\Livro\u002B\\Controllers\\RegistrarController.cs",
-              "RelativeDocumentMoniker": "Controllers\\RegistrarController.cs",
-              "ToolTip": "D:\\Projetos\\Livro\u002B\\Controllers\\RegistrarController.cs",
-              "RelativeToolTip": "Controllers\\RegistrarController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T06:58:56.263Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
             }
           ]
         }

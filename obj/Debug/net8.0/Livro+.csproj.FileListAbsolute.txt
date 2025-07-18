@@ -31,3 +31,4 @@ D:\Projetos\Livro+\obj\Debug\net8.0\refint\Livro+.dll
 D:\Projetos\Livro+\obj\Debug\net8.0\Livro+.pdb
 D:\Projetos\Livro+\obj\Debug\net8.0\Livro+.genruntimeconfig.cache
 D:\Projetos\Livro+\obj\Debug\net8.0\ref\Livro+.dll
+D:\Projetos\Livro+\obj\Debug\net8.0\Livro+.sourcelink.json
