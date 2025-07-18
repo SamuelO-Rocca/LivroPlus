@@ -1,9 +1,6 @@
-using System.Diagnostics;
 using Livro_.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Livro_.Controllers
-{
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
